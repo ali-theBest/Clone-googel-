@@ -1,0 +1,42 @@
+name: playstore_flutter
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.3
+  nb_utils: ^7.0.4
+  google_fonts: ^6.2.1
+  mobx: ^2.0.1
+  flutter_mobx: ^2.0.0
+  flutter_vector_icons: ^2.0.0
+  flutter_staggered_animations: ^1.1.1
+  flare_flutter: ^3.0.1
+  webview_flutter: ^4.8.0
+  image_picker: ^1.1.2
+  share: ^2.0.4
+  cached_network_image: ^3.3.1
+  flutter_blurhash: ^0.8.2
+  platform: ^3.1.5
+  connectivity_plus: ^6.0.5
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mobx_codegen:
+  build_runner: ^2.0.6
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/playStore/
